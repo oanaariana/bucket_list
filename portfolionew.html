@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <title>Portfolio page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="plugin/magnific-popup/magnific-popup.css">
+    <link href="css/style.css" rel="stylesheet"/>
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/portfolionewscript.js"></script>
+    <!-- Magnific Popup core CSS file -->
+    <!-- Magnific Popup core JS file -->
+    <script src="plugin/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+</head>
+<body>
+<div class="nav-sidebar">
+    <div class="icon-bar">
+        <nav class="sidebar sidebar-menu-collapsed">
+            <a href="#" id="justify-icon">
+                <span class="glyphicon glyphicon-align-justify"></span>
+            </a>
+            <ul>
+                <li class="active">
+                    <a class="expandable" href="#" title="Home">
+                        <span class="glyphicon glyphicon-home collapsed-element"></span>
+                        <span class="expanded-element">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="expandable" href="#" title="About">
+                        <span class="glyphicon glyphicon-user collapsed-element"></span>
+                        <span class="expanded-element">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="expandable" href="portofolionew.html" title="Portfolio">
+                        <span class="glyphicon glyphicon-briefcase collapsed-element"></span>
+                        <span class="expanded-element">Portfolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="expandable" href="#" title="Contact">
+                        <span class="glyphicon glyphicon-phone-alt collapsed-element"></span>
+                        <span class="expanded-element">Contact</span>
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="nav-social">
+                <li><a href="#form-popup" id="contact-btn" class="btn-popup"><i class="fa fa-send"></i></a></li>
+                <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://github.com"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="profile-userpic">
+        <img class="img-responsive center-block" src="images/logo.jpg" alt="">
+    </div>
+    <div class="main-menu">
+        <h1 class="text-center">
+            <span class="main-title">Bucket List</span>
+            <span class="main-description">Web Design & Development</span>
+            <span class="tagline"><a href="mailto:#">mail@example.com</a></span>
+        </h1>
+
+    </div>
+</div>
+
+<div class="content">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <a href="#" class="pop">
+                    <img src="images/s1.jpg">
+                </a>
+                <a href="#" class="pop">
+                    <img src="images/s2.jpg">
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <a href="#" class="pop">
+                    <img src="images/s3.jpg">
+                </a>
+                <a href="#" class="pop">
+                    <img src="images/s4.jpg">
+                </a>
+            </div>
+        </div>
+
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                                class="sr-only">Close</span></button>
+                        <img src="" class="imagepreview">
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-xs-12">
+                            <p class="text-left">1. line of description<br>2. line of description <br>3. line of
+                                description</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mfp-content">
+    <div id="form-popup" class="popup mfp-hide">
+
+        <h3>Contact us</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores adipisci, quia, dolores distinctio ut
+            beatae
+            velit saepe esse delectus eaque eos iusto numquam reprehenderit neque possimus qui molestias autem.
+            Esse.</p>
+
+        <form class="form-contact" method="post" action="">
+            <p>
+                <label>Your name</label>
+                <input type="text" name="name" required>
+            </p>
+
+            <p>
+                <label>Your email</label>
+                <input type="email" name="email" required>
+            </p>
+
+            <p>
+                <label>Message</label>
+                <textarea name="message" rows="8" required></textarea>
+            </p>
+
+            <p>
+                <button type="submit" class="btn">Send</button>
+            </p>
+        </form>
+
+    </div>
+</div>
+</body>
+</html>
